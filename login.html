@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    body{
+        background-image: url('img/bg_img.jpg');
+        background-size: cover;
+        
+    }
+
+    #username{   
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    }
+
+    #password{   
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    }
+
+   
+
+    #button-border{
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }  
+
+</style>
+
+<body >
+    <div class="logo1">
+        <img src="img/login-logo1.png" height="100px" width="100px" alt="">
+    <p class="clg-name"> Shrimathi Devkunvar Nanalal Bhatt Vaishnav College For Women(Autonomous) <br>
+Affiliated to University of Madras - Re-Accredited with 'A+' Grade by NAAC</p>
+<img src="img/logo-2.png" height="100px" width="100px" class="logo2" alt="">
+    </div>
+    <div class="login-container">
+        <form class="login-form " > 
+            <h2>LOGIN</h2>
+            <label for="username" class="textalign" >USERNAME:</label>
+            <input  type="text" id="username" class="textbox"  name="username" required><br><br>
+            <label for="password" class="textalign">PASSWORD:</label>
+            <input type="password" id="password" class="textbox" name="password" required>
+            <button type="submit" class="button" id="button-border"> SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>

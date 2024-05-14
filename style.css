@@ -1,0 +1,130 @@
+ /* Reset default styles  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Center the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-left: 470px;
+    /* box-shadow: 0 8px 30px rgba(255, 255,255, 0.3); */
+    
+}
+
+/* Style the form */
+.login-form {
+    width: 469px;
+    height: 309px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 500; 
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0 0 20px rgba(255, 255,255, 0.3); */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* #glasseffect{
+
+    backdrop-filter: blur(30px);
+} */
+
+
+
+.textbox{
+    background-color: rgba(255, 255, 255, 0.1); 
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    /* box-shadow: 0 8px 30px rgba(255, 255,255, 0.3); */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+.login-form h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    top: 301px;
+    margin-bottom: 10px;
+}
+
+
+.login-form button {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+/* .login-form label,
+.login-form input{
+    justify-content: center;
+    align-items: center;  
+} */
+
+/* Full-width input fields */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 240px;
+    height: 32px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+
+
+/* Submit button */
+.login-form button[type="submit"] {
+    width: 132px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: #000000;
+    padding: 10px;
+    margin-left: 120px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.login-form button:hover {
+    opacity: 0.7;
+}
+
+.logo1{
+    padding-left: 160px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.clg-name {
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 25px;
+    padding-left: 160px;
+   
+}
+
+.logo2{
+    margin-left: 160px;
+}
+
+/* .clgname{
+    font-size: 16px;
+    margin-top: 10px;
+} */
